@@ -1,0 +1,153 @@
+log
+
+Loading data from log file...
+
+Player number: 1
+Total score: 163
+Total strike count: 4
+Total spare count: 3
+
+Player number: 2
+Total score: 95
+Total strike count: 0
+Total spare count: 3
+
+Player number: 3
+Total score: 116
+Total strike count: 2
+Total spare count: 3
+
+Player number: 4
+Total score: 129
+Total strike count: 1
+Total spare count: 6
+
+
+
+log - invalidscore
+
+Loading data from log file...
+Input file syntax error: Invalid score entered: s
+
+
+
+log - leastplayers
+
+Loading data from log file...
+
+Player number: 1
+Total score: 139
+Total strike count: 0
+Total spare count: 10
+
+
+
+log - mostplayers
+
+Loading data from log file...
+
+Player number: 1
+Total score: 136
+Total strike count: 3
+Total spare count: 3
+
+Player number: 2
+Total score: 170
+Total strike count: 3
+Total spare count: 6
+
+Player number: 3
+Total score: 107
+Total strike count: 1
+Total spare count: 4
+
+Player number: 4
+Total score: 134
+Total strike count: 3
+Total spare count: 3
+
+Player number: 5
+Total score: 66
+Total strike count: 0
+Total spare count: 0
+
+Player number: 6
+Total score: 108
+Total strike count: 3
+Total spare count: 3
+
+
+
+log - original
+
+Loading data from log file...
+
+Player number: 1
+Total score: 139
+Total strike count: 0
+Total spare count: 10
+
+Player number: 2
+Total score: 107
+Total strike count: 0
+Total spare count: 5
+
+
+
+log - syntaxerror1
+
+Loading data from log file...
+Input file syntax error: Cannot roll a strike on roll 2 of a frame.
+
+
+
+log - syntaxerror2
+
+Loading data from log file...
+Input file syntax error: Cannot roll a spare on roll 1 of a frame.
+
+
+
+log - syntaxerror3
+
+Loading data from log file...
+Input file syntax error: Can't have a 3rd roll in 10th frame if spare or strike was not rolled first.
+
+
+
+log - syntaxerror4
+
+Loading data from log file...
+Log file syntax error: Score value for second roll is too large.
+
+
+
+log - syntaxerror5
+
+Loading data from log file...
+Log file syntax error: Score value for second roll results in a spare, but spare was not received.
+
+
+
+log - wrongnumber
+
+Loading data from log file...
+Input file synatx error: Number of players in frame 1 does not match number of players specified.
+
+
+
+log - minmax
+
+Loading data from log file...
+
+Player number: 1
+Total score: 0
+Total strike count: 0
+Total spare count: 0
+
+Player number: 2
+Total score: 300
+Total strike count: 12
+Total spare count: 0
+
+
