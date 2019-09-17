@@ -1,12 +1,16 @@
+
 import java.io.*;
 import java.lang.String;
 
+/**
+ * Wrapper class for using a BufferedReader to read data from the log file
+ */
 public class Reader {
 	
 	BufferedReader br = null;
 	FileReader fr = null;
 	
-	public Reader(String filePath) { //link reader class to appropriate file
+	public Reader(String filePath) { // Link reader class to appropriate file
 		
 		try {
 			
@@ -22,7 +26,7 @@ public class Reader {
 		
 	}
 
-	public String read() { //get the next full line of input from the input file
+	public String readLine() { // Get the next full line of input from the input file
 		
 		String textInput = "";
 		
