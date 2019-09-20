@@ -9,7 +9,7 @@ public class Lab1 {
 	
 	public static void main(String[] args) {
 
-		bowlingParser parser = new bowlingParser(LOG_FILE_PATH);
+		BowlingParser parser = new BowlingParser(LOG_FILE_PATH);
 		System.out.println(parser.getPlayerCount());
 		parser.parseGame();
 		parser.printScores();
