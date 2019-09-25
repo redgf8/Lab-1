@@ -49,6 +49,8 @@ public class BowlingParser {
 	 */
 	public void parseGame() {
 
+		//TODO: add frame to array when done parsing
+
 		String currFrame = reader.readLine();
 		if (currFrame == null) throw new IllegalArgumentException("Invalid format: log file too short");
 		String currFramePattern;
